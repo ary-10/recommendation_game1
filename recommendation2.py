@@ -54,9 +54,11 @@ if answer.lower=="no":
     try:
         
         if answer2.upper=="YES":
+            print(fo)
+            
     except:
         print("Oops!try again")
-        print(fo)
+            print(fo)
         try:
             preferences=input("tell me what type you want to watch")
         except:
