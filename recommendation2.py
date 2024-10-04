@@ -53,7 +53,7 @@ if answer.lower()=="no":
         print("somthing went wrong, try again!")
     try:
         
-        if answer2.upper=="YES":
+        if answer2.upper()=="YES":
             print(fo)
             
     except:
