@@ -45,7 +45,7 @@ try:
 except:
     print("somthing went wrong, try again!")
 
-if answer.lower=="no":
+if answer.lower()=="no":
     print("okay i thought i could help you choosing an anime to watch")
     try:
         answer2=input("do you want me to give you a suggestion?")
@@ -58,7 +58,7 @@ if answer.lower=="no":
             
     except:
         print("Oops!try again")
-            print(fo)
+            
         try:
             preferences=input("tell me what type you want to watch")
         except:
